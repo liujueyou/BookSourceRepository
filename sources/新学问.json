@@ -21,7 +21,7 @@
     "orderBy": 0,
     "chapter": {
       "name": ".neirong_head > h1",
-      "link": "head > link[rel=canonical]@attr->href"
+      "link": "link[rel='canonical']@attr->href"
     }
   },
   "content": {
