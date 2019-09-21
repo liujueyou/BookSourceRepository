@@ -83,7 +83,7 @@
         "link": "http://www.h528.com/post/category/%e6%80%a7%e7%9f%a5%e8%ad%98"
       }
     ],
-    "list": "#content > table > tbody > tr > td > h3",
+    "list": "#content > div > table > tbody > tr > td > h3",
     "page": {
       "index": 1,
       "limit": 30,
