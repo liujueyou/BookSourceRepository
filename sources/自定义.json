@@ -31,6 +31,10 @@
       "text": "下一页"
     }
   },
+  "search": {
+    "link": "http://api.zhuishushenqi.com/book/fuzzy-search?query=${key}",
+    "list": "$.books[?(@.contentType =='txt')]"
+  },
   "rank": {
     "link": [
       {
