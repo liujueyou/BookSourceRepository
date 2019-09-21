@@ -5,15 +5,15 @@
   "url": "http://zuopinj.com",
   "charset": "utf-8",
   "metadata": {
-    "name": ["a > h3", "a@js->${this}.match('《(.*)》')[1]"],
-    "author": [".book_info > .infos > span@js->${this}.match('作者：(.*)最后更新')[1]", ".s > a"],
-    "cover": ["a > img@attr->src"],
+    "name": ["li > a","a > h3", "a@js->${this}.match('《(.*)》')[1]"],
+    "author": ["li@js->${this}.match('</a>(.*)$')[1].replace('</a>','')",".book_info > .infos > span@js->${this}.match('作者：(.*)最后更新')[1]", ".s > a"],
+    "cover": ["#fmimg > a > img@attr->src","a > img@attr->src"],
     "summary": ["a > p", ".u"],
     "category": [".tuijian > a.tag-bg-blue"],
     "status": [".book_info > .infos > span > span@js->${this}.match('状态(.*)')[1]"],
     "update": [".book_info > .infos > span > span@js->${this}.match('最后更新：(.*)状态')[1]"],
     "lastChapter": [".book_info > .upd > a"],
-    "link": ["a@attr->href"],
+    "link": ["li > a@attr->href","a@attr->href"],
     "catalog": []
   },
   "catalog": {
