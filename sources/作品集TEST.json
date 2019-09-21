@@ -6,7 +6,7 @@
   "charset": "utf-8",
   "metadata": {
     "name": ["li > a","a@js->${this}.match('《(.*)》')[1]","a > h3", "a@js->${this}.match('《(.*)》')[1]"],
-    "author": [".book_info > .infos > span@js->${this}.match('作者：(.*)最后更新')[1]", ".s > a","li@js->${this}.match('</a>(.*)$')[1].replace('</a>','')"],
+    "author": ["li@js->${this}.match('</a>(.*)')[1].replace('</a>','')", "#info .infotitle > i@js->${this}.match('作者：(.*)')[1]",".book_info > .infos > span@js->${this}.match('作者：(.*)最后更新')[1]", ".s > a","li@js->${this}.match('</a>(.*)$')[1].replace('</a>','')"],
     "cover": ["a > img@attr->src"],
     "summary": ["a > p", ".u"],
     "category": [".tuijian > a.tag-bg-blue"],
