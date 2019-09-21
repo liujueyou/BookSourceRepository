@@ -5,7 +5,7 @@
   "url": "https://www.jqwxx.fun",
   "charset": "utf-8",
   "metadata": {
-    "name": ["a"],
+    "name": ["a", ".post .title > h5 > a"],
     "author": [],
     "cover": [],
     "summary": [],
@@ -13,7 +13,7 @@
     "status": [],
     "update": [],
     "lastChapter": [],
-    "link": ["a@attr->href"],
+    "link": ["a@attr->href", ".post .title > h5 > a@attr->href"],
     "catalog": []
   },
   "catalog": {
@@ -59,12 +59,12 @@
         "link": "https://www.jqwxx.fun?m=art-type-id-6.html"
       }
     ],
-    "list": "#container .main .post .title > h5",
+    "list": "#container .main",
     "page": {
       "index": 1,
       "limit": 30,
       "begin": "",
-      "next": "https://www.jqwxx.fun/?m=art-type-id-1-pg-${index}.html"
+      "next": ".pagenavi > a:nth-last-child(2)@attr->href"
     }
   }
 }
