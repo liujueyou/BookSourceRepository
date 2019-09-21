@@ -20,8 +20,8 @@
     "list": "#container .main > h3 > div",
     "orderBy": 0,
     "chapter": {
-      "name": "a",
-      "link": "a@attr->href"
+      "name": "a:nth-last-child(1)",
+      "link": "a:nth-last-child(1)@attr->href"
     }
   },
   "content": {
