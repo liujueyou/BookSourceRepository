@@ -12,7 +12,7 @@
     "category": ["#info .infotitle > i@js->${this}.match('类别：(.*)')[1]",".tuijian > a.tag-bg-blue"],
     "status": ["#info .infotitle > i@js->${this}.match('状态：(.*)')[1]",".book_info > .infos > span > span@js->${this}.match('状态(.*)')[1]"],
     "update": [".book_info > .infos > span > span@js->${this}.match('最后更新：(.*)状态')[1]"],
-    "lastChapter": ["#info .bookurl > p > a",".book_info > .upd > a"],
+    "lastChapter": [".book_info > .upd > a"],
     "link": ["li > a@attr->href","a@attr->href"],
     "catalog": []
   },
