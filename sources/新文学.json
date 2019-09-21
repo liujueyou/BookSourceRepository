@@ -1,0 +1,70 @@
+{
+  "name": "新文学",
+  "version": 100,
+  "category": 0,
+  "url": "https://www.jqwxx.fun",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["a"],
+    "author": [],
+    "cover": [],
+    "summary": [],
+    "category": [],
+    "status": [],
+    "update": [],
+    "lastChapter": [],
+    "link": ["a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": "#container .main > h3 > div",
+    "orderBy": 0,
+    "chapter": {
+      "name": "a",
+      "link": "a@attr->href"
+    }
+  },
+  "content": {
+    "text": "#container .main .post .entry > h3"
+  },
+  "search": {
+    "link": "https://www.jqwxx.fun/index.php?m=art-search@post->wd=${key}&submit=搜索",
+    "list": "#container .main .post .title > h2"
+  },
+  "rank": {
+    "link": [
+      {
+        "name": "RQ",
+        "link": "https://www.jqwxx.fun/?m=art-type-id-1.html"
+      },
+      {
+        "name": "LL",
+        "link": "https://www.jqwxx.fun/?m=art-type-id-2.html"
+      },
+      {
+        "name": "QJ",
+        "link": "https://www.jqwxx.fun/?m=art-type-id-3.html"
+      },
+      {
+        "name": "XY",
+        "link": "https://www.jqwxx.fun/?m=art-type-id-4.html"
+      },
+      {
+        "name": "WX",
+        "link": "https://www.jqwxx.fun/?m=art-type-id-5.html"
+      }
+      ,
+      {
+        "name": "DM",
+        "link": "https://www.jqwxx.fun/?m=art-type-id-6.html"
+      }
+    ],
+    "list": "#container .main .post .title > h5",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "",
+      "next": "/page/${index}"
+    }
+  }
+}
