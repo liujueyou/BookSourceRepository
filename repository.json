@@ -3,12 +3,12 @@
   "summary": "自己用",
   "list": [
     {
-      "name": "作品集TEST",
-      "url": "http://www.yeyexs.cc",
-      "category": 1,
-      "rank": 0,
+      "name": "作品集",
+      "url": "http://zuopinj.com",
+      "category": 0,
+      "rank": 4,
       "auth": false,
-      "version": 100
+      "version": 101
     }
   ]
 }

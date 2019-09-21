@@ -48,6 +48,10 @@
       {
         "name": "更新榜",
         "link": "http://zuopinj.com/newupdate/"
+      },
+      {
+        "name": "大全列表",
+        "link": "http://www.yeyexs.cc/xiaoshuodaquan/"
       }
     ],
     "list": ".listbox > ul > li",
