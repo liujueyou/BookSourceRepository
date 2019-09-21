@@ -54,7 +54,7 @@
         "link": "http://www.yeyexs.cc/xiaoshuodaquan/"
       }
     ],
-    "list": ".listbox > ul > li",
+    "list": ".novellist > ul",
     "page": {
       "index": 1,
       "limit": 30,
