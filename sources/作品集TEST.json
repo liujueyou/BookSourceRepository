@@ -13,15 +13,15 @@
     "status": [],
     "update": [],
     "lastChapter": [],
-    "link": ["a@js->'http://www.h528.com/?s='+${this}","a@attr->href"],
+    "link": ["a@attr->href"],
     "catalog": []
   },
   "catalog": {
-    "list": ".book_list > ul > li",
+    "list": "html",
     "orderBy": 0,
     "chapter": {
-      "name": "a",
-      "link": "a@attr->href"
+      "name": "#content .post h2",
+      "link": "head > link:nth-last-child(1)@attr->href"
     }
   },
   "content": {
