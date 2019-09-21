@@ -64,7 +64,7 @@
       "index": 1,
       "limit": 30,
       "begin": "",
-      "next": "#container .main .pagenavi > a:nth-last-child(2)@attr->href"
+      "next": "https://www.jqwxx.fun/?m=art-type-id-1-pg-${index}.html"
     }
   }
 }
