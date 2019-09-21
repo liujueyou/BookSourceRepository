@@ -1,0 +1,86 @@
+{
+  "name": "新学问",
+  "version": 100,
+  "category": 0,
+  "url": "http://www.fl310.com/",
+  "charset": "utf-8",
+  "metadata": {
+    "name": ["a"],
+    "author": [],
+    "cover": [],
+    "summary": [],
+    "category": [],
+    "status": [],
+    "update": [],
+    "lastChapter": [],
+    "link": ["a@attr->href"],
+    "catalog": []
+  },
+  "catalog": {
+    "list": "html",
+    "orderBy": 0,
+    "chapter": {
+      "name": ".neirong_head > h1",
+      "link": "head > link:nth-last-child(2)@attr->href"
+    }
+  },
+  "content": {
+    "text": "div.neirong_body"
+  },
+  "search": {
+    "link": "https://www.jqwxx.fun/index.php?m=art-search@post->wd=${key}&submit=搜索",
+    "list": "#container .main .post .title > h2"
+  },
+  "rank": {
+    "link": [
+      {
+        "name": "CPWX",
+        "link": "http://www.fl310.com/cpxs/"
+      },
+      {
+        "name": "JQWX",
+        "link": "http://www.fl310.com/jqwx/"
+      },
+      {
+        "name": "LLWX",
+        "link": "http://www.fl310.com/llwx/"
+      },
+      {
+        "name": "YSRQ",
+        "link": "http://www.fl310.com/ysrq/"
+      },
+      {
+        "name": "WXGD",
+        "link": "http://www.fl310.com/wxgd/"
+      }
+      ,
+      {
+        "name": "MQXY",
+        "link": "http://www.fl310.com/mqxy/"
+      },
+      {
+        "name": "YYQJ",
+        "link": "http://www.fl310.com/yyqj/"
+      },
+      {
+        "name": "LLXS",
+        "link": "http://www.fl310.com/llxs/"
+      },
+      {
+        "name": "HSXH",
+        "link": "http://www.fl310.com/hsxh/"
+      },
+      {
+        "name": "XAJQ",
+        "link": "http://www.fl310.com/xajq/"
+      }
+    ],
+    "list": "#articlelistcontent li .liebiao_bt",
+    "page": {
+      "index": 1,
+      "limit": 30,
+      "begin": "",
+      "next": "list_${index}.html"
+    }
+  }
+}
