@@ -35,28 +35,28 @@
     "link": [
       {
         "name": "RQ",
-        "link": "https://www.jqwxx.fun/?m=art-type-id-1.html"
+        "link": "https://www.jqwxx.fun?m=art-type-id-1.html"
       },
       {
         "name": "LL",
-        "link": "https://www.jqwxx.fun/?m=art-type-id-2.html"
+        "link": "https://www.jqwxx.fun?m=art-type-id-2.html"
       },
       {
         "name": "QJ",
-        "link": "https://www.jqwxx.fun/?m=art-type-id-3.html"
+        "link": "https://www.jqwxx.fun?m=art-type-id-3.html"
       },
       {
         "name": "XY",
-        "link": "https://www.jqwxx.fun/?m=art-type-id-4.html"
+        "link": "https://www.jqwxx.fun?m=art-type-id-4.html"
       },
       {
         "name": "WX",
-        "link": "https://www.jqwxx.fun/?m=art-type-id-5.html"
+        "link": "https://www.jqwxx.fun?m=art-type-id-5.html"
       }
       ,
       {
         "name": "DM",
-        "link": "https://www.jqwxx.fun/?m=art-type-id-6.html"
+        "link": "https://www.jqwxx.fun?m=art-type-id-6.html"
       }
     ],
     "list": "#container .main .post .title > h5",
