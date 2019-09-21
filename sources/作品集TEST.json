@@ -13,7 +13,7 @@
     "status": [],
     "update": [],
     "lastChapter": [],
-    "link": ["a@attr->href"],
+    "link": ["a@js->'http://www.h528.com/?s='+${this}","a@attr->href"],
     "catalog": []
   },
   "catalog": {
