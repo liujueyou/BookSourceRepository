@@ -64,7 +64,7 @@
       "index": 1,
       "limit": 30,
       "begin": "",
-      "next": "/${index}"
+      "next": "&m=art-type-id-1-pg-${index}.html"
     }
   }
 }
