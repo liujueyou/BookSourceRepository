@@ -8,11 +8,11 @@
     "name": ["li > a","a > h3", "a@js->${this}.match('《(.*)》')[1]"],
     "author": ["li@js->${this}.match('</a>(.*)$')[1].replace('</a>','')",".book_info > .infos > span@js->${this}.match('作者：(.*)最后更新')[1]", ".s > a"],
     "cover": ["#fmimg > a > img@attr->src","a > img@attr->src"],
-    "summary": ["a > p", ".u"],
-    "category": [".tuijian > a.tag-bg-blue"],
-    "status": [".book_info > .infos > span > span@js->${this}.match('状态(.*)')[1]"],
+    "summary": ["#info .intro","a > p", ".u"],
+    "category": ["#info .infotitle > i@js->${this}.match('类别：(.*)')[1]",".tuijian > a.tag-bg-blue"],
+    "status": ["#info .infotitle > i@js->${this}.match('状态：(.*)')[1]",".book_info > .infos > span > span@js->${this}.match('状态(.*)')[1]"],
     "update": [".book_info > .infos > span > span@js->${this}.match('最后更新：(.*)状态')[1]"],
-    "lastChapter": [".book_info > .upd > a"],
+    "lastChapter": "#info .bookurl > p > a",[".book_info > .upd > a"],
     "link": ["li > a@attr->href","a@attr->href"],
     "catalog": []
   },
@@ -34,32 +34,10 @@
   "rank": {
     "link": [
       {
-        "name": "排行榜",
-        "link": "http://zuopinj.com/alltotal/"
-      },
-      {
-        "name": "推荐榜",
-        "link": "http://zuopinj.com/allisgood/"
-      },
-      {
-        "name": "下载榜",
-        "link": "http://zuopinj.com/alldown/"
-      },
-      {
-        "name": "更新榜",
-        "link": "http://zuopinj.com/newupdate/"
-      },
-      {
         "name": "大全列表",
         "link": "http://www.yeyexs.cc/xiaoshuodaquan/"
       }
     ],
-    "list": ".novellist > ul",
-    "page": {
-      "index": 1,
-      "limit": 30,
-      "begin": "",
-      "next": "index_${index}.html"
-    }
+    "list": ".novellist > ul"
   }
 }
