@@ -25,7 +25,7 @@
     }
   },
   "content": {
-    "text": "div.neirong_body"
+    "text": ".neirong .neirong_body"
   },
   "search": {
     "link": "https://www.jqwxx.fun/index.php?m=art-search@post->wd=${key}&submit=搜索",
@@ -75,7 +75,7 @@
         "link": "http://www.fl310.com/xajq/"
       }
     ],
-    "list": "#articlelistcontent li .liebiao_bt",
+    "list": "#articlelistcontent > li > div",
     "page": {
       "index": 1,
       "limit": 30,
