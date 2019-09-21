@@ -64,7 +64,7 @@
       "index": 1,
       "limit": 30,
       "begin": "",
-      "next": "&m=art-type-id-1-pg-${index}.html"
+      "next": "&m=art-type-id-1-pg-${index}.html@js->'&test=1'"
     }
   }
 }
