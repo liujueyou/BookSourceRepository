@@ -25,11 +25,7 @@
     }
   },
   "content": {
-    "text": "div#BookText",
-    "next": {
-      "link": "div.bottem > a",
-      "text": "下一页"
-    }
+    "text": "#htmlContent"
   },
   "search": {
     "link": "http://so.zuopinj.com/search/index.php@post->tbname=bookname&show=title&tempid=3&keyboard=${key}",
